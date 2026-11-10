@@ -268,7 +268,7 @@ Báo cáo: đổi tên report/individual/MSSV_HoTen.md theo thông tin thật. D
     <section id="mission" aria-labelledby="mission-title">
       <div class="section-head">
         <h2 id="mission-title">Bài làm của bạn</h2>
-        <p>Bài gồm ba cấp độ và sáu checkpoint, tổng 14 ảnh và tối đa 100 điểm. Không có bài bắt buộc về nhà.</p>
+        <p>Bài gồm ba cấp độ và sáu checkpoint, tổng 14 ảnh và tối đa 100 điểm.</p>
       </div>
       <div class="table-wrap">
         <table>
@@ -404,14 +404,14 @@ python3 scoring/scorecard.py --group tiers --dir submissions --out reports/tiers
     </section>
 
     <section id="submit" aria-labelledby="submit-title">
-      <div class="section-head"><h2 id="submit-title">Fork → push → nộp link</h2><p>Mỗi bạn nộp link fork cá nhân trên <a href="https://aithucchien.vinuni.edu.vn">LMS</a> trước 12:00 trưa ngày hôm sau buổi lab (UTC+7); tool riêng chấm sau cửa sổ nộp. Không cần Python hoặc tự chấm.</p></div>
+      <div class="section-head"><h2 id="submit-title">Fork → push → nộp link</h2><p>Mỗi bạn nộp link fork cá nhân trên <a href="https://aithucchien.vinuni.edu.vn">LMS</a> trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Không cần Python hoặc tự chấm.</p></div>
       <ol class="list">
         <li>Trên GitHub, bấm <strong>Fork</strong> ở repo đề bài để tạo fork trên tài khoản của bạn. Dùng ảnh và class trong fork để làm bài trên CVAT.</li>
         <li>Kiểm ZIP export: tên đúng mã task, mở được và có dữ liệu. Mở <a href="report/individual/MSSV_HoTen.md"><code>report/individual/MSSV_HoTen.md</code> đã có sẵn trong thư mục report/individual/</a>; ghi một quyết định tự làm, một lỗi và ba ca cân nhắc. <a href="reports/REPORT_TEMPLATE.md">Mẫu giải thích</a> giúp bạn hiểu từng ô.</li>
         <li>Trong fork, mở <code>report/individual/MSSV_HoTen.md</code> → <strong>Edit</strong> → đổi tên theo MSSV và họ tên thật không dấu (ví dụ <code>20260001_NguyenVanAn.md</code>) → điền bài → <strong>Commit changes</strong>. Mở <code>submissions/</code> → <strong>Add file → Upload files</strong> để đưa ZIP vào đó rồi Commit. Dùng Git trên máy để push cũng được, nhưng không bắt buộc.</li>
         <li>Mở lại fork, kiểm file đã hiện rồi dán <strong>link fork của bạn</strong> vào <a href="https://aithucchien.vinuni.edu.vn">LMS</a> trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Đừng dán link repo đề bài của lớp. Nếu export lỗi, ghi tình trạng Save và báo coach. <a href="docs/SUBMISSION.md">Xem cách nộp chi tiết</a>.</li>
       </ol>
-      <p class="note">Điểm chính tối đa 100; Day03 chưa giao bonus. Hạn 12:00 trưa hôm sau (UTC+7) là cửa sổ nhận bài, không có bài tập về nhà bắt buộc. Không đưa ground truth lên fork. IoU giữa hai mask chỉ là độ giống nhau nếu chưa có reference; điểm tự đánh giá không thay điểm chính thức.</p>
+      <p class="note">Điểm chính tối đa 100; Day03 chưa giao bonus. Hạn 12:00 trưa hôm sau (UTC+7) là cửa sổ nhận bài. Không đưa ground truth lên fork. IoU giữa hai mask chỉ là độ giống nhau nếu chưa có reference; điểm tự đánh giá không thay điểm chính thức.</p>
     </section>
     <section id="glossary" aria-labelledby="glossary-title">
       <div class="section-head"><h2 id="glossary-title">Sáu từ đủ để bắt đầu</h2><p>Không cần thuộc định nghĩa trước khi vào CVAT. Quay lại đây khi gặp một từ lạ trong task hoặc report.</p></div>

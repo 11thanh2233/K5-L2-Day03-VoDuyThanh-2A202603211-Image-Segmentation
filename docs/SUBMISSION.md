@@ -1,6 +1,6 @@
 # Nộp bài Day 3 — fork → push → LMS
 
-Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản GitHub của mình**, làm bài với CVAT local, đưa bài lên fork và nộp **link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Tool chấm riêng chạy sau cửa sổ nộp. Lab thực hành 240 phút trên lớp; không có bài tập về nhà bắt buộc. Reference của ba tier được phát trong 60 phút cuối để tự đánh giá; Day03 chưa giao bonus. Notebook và lệnh kiểm cấu trúc không phải điều kiện nộp cốt lõi.
+Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản GitHub của mình**, làm bài với CVAT local, đưa bài lên fork và nộp **link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Lab thực hành 240 phút trên lớp. Reference của ba tier được phát trong 60 phút cuối để tự đánh giá; Day03 chưa giao bonus. Notebook và lệnh kiểm cấu trúc không phải điều kiện nộp cốt lõi.
 
 ## 1. Xuất đúng format và đặt tên
 

@@ -1,6 +1,6 @@
 # Tiêu chí đánh giá Day 3 — tối đa 100 điểm trong lớp
 
-Trọng số giữ từ [starter Day 5](https://github.com/VinUni-AI20k/Day5-Segmentation-Data-Student) commit `3bff13d`; không có bài về nhà bắt buộc. Task chưa nộp được ghi là chưa có bài nộp, không tự điền điểm giả. Học viên nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7); công cụ chấm riêng chạy sau cửa sổ nộp. Bản nộp được xem cùng ảnh, class và quy tắc của task. Ground truth ba tier được phát **trong 60 phút cuối buổi lab** theo hướng dẫn lớp; đáp án checkpoint chỉ được dùng nếu người phụ trách cung cấp riêng.
+Trọng số giữ từ [starter Day 5](https://github.com/VinUni-AI20k/Day5-Segmentation-Data-Student) commit `3bff13d`. Task chưa nộp được ghi là chưa có bài nộp, không tự điền điểm giả. Học viên nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Bản nộp được xem cùng ảnh, class và quy tắc của task. Ground truth ba tier được phát **trong 60 phút cuối buổi lab** theo hướng dẫn lớp; đáp án checkpoint chỉ được dùng nếu người phụ trách cung cấp riêng.
 
 | Task | Loại | Điểm tối đa | Điều cần chứng minh |
 | --- | --- | ---: | --- |

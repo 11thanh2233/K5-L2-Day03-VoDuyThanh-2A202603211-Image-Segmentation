@@ -4,7 +4,7 @@
 
 [Repo bài thực hành](https://github.com/VinUni-AI20k/K5-L3-Day03-Image-Segmentation) · [LMS nộp bài](https://aithucchien.vinuni.edu.vn)
 
-**Dành cho học viên · 240 phút thực hành trên lớp · điểm ghi nhận tối đa 100.** Repo đề bài được chia sẻ cho lớp; mỗi học viên **fork repo này**, làm bài trong fork của mình, push kết quả rồi nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Bài được chấm bằng công cụ riêng sau cửa sổ nộp. Không có bài tập bắt buộc về nhà.
+**Dành cho học viên · 240 phút thực hành trên lớp · điểm ghi nhận tối đa 100.** Repo đề bài được chia sẻ cho lớp; mỗi học viên **fork repo này**, làm bài trong fork của mình, push kết quả rồi nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7).
 
 Bạn sẽ tự tạo mask cho ảnh trong repo, kiểm lại theo quy tắc, sửa một lỗi và giải thích quyết định của mình. Bài nộp gồm **ZIP export từ CVAT cho các task đã làm và một `report/individual/MSSV_HoTen.md`** trong fork của bạn. Có thể hoàn thành toàn bộ mà không cần lập trình, Jupyter hay SAM. [Hướng dẫn trực quan có ảnh chụp CVAT](lab-guide.html) dành cho người mới; README này là lộ trình đầy đủ để tra cứu trong lúc làm. Nếu xem trên GitHub không mở được HTML, tải fork về và mở file đó trong Chrome/Edge.
 
@@ -51,7 +51,7 @@ Checkpoint có **class list riêng**. Ví dụ `cp3_thin` có `pole`, `traffic s
 
 ## Lộ trình 240 phút trên lớp
 
-Đây là **timebox cho 240 phút thực hành**, để còn giờ Save, tự QC và chuẩn bị bài nộp. Nếu chậm hơn dự kiến, ghi rõ phần đã làm và phần còn thiếu. **Ground truth của Easy, Medium và Hard dự kiến được phát trong 60 phút cuối**, sau phần tự làm; lúc đó có thể dùng script để tìm và sửa lỗi. Hạn đưa link fork lên [LMS](https://aithucchien.vinuni.edu.vn) là **12:00 trưa ngày hôm sau buổi lab (UTC+7)**; công cụ chấm riêng chạy sau cửa sổ nộp. [Bản lộ trình văn bản](GUIDE.md) có thể mở cạnh CVAT.
+Đây là **timebox cho 240 phút thực hành**, để còn giờ Save, tự QC và chuẩn bị bài nộp. Nếu chậm hơn dự kiến, ghi rõ phần đã làm và phần còn thiếu. **Ground truth của Easy, Medium và Hard dự kiến được phát trong 60 phút cuối**, sau phần tự làm; lúc đó có thể dùng script để tìm và sửa lỗi. Hạn đưa link fork lên [LMS](https://aithucchien.vinuni.edu.vn) là **12:00 trưa ngày hôm sau buổi lab (UTC+7)**. [Bản lộ trình văn bản](GUIDE.md) có thể mở cạnh CVAT.
 
 | Phút | Việc chính | Bằng chứng giữ lại |
 | ---: | --- | --- |

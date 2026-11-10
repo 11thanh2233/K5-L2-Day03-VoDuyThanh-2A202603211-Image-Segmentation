@@ -17,7 +17,7 @@ Action lấy gói đáp án từ release chính thức của repo lớp **sau kh
 
 1. Giữ ba ZIP đầu tiên đã xuất từ CVAT: `submissions/easy_semantic.zip`, `submissions/medium_instance.zip`, `submissions/hard_panoptic.zip`. Nếu chưa xong task nào, không tạo ZIP rỗng.
 2. Hoàn thành phần tự làm và tự QC trước khi xem reference. Để việc xếp hạng có thể kiểm chứng, người phụ trách cần công bố cách ghi nhận **bản export trước lúc phát ground truth**; kết quả sửa sau khi đã xem đáp án không thể tự coi là bằng chứng độc lập để xếp top 3.
-3. Ground truth chỉ được dùng theo hướng dẫn phát trong lớp. **Không commit/push, upload lên Colab công khai, gửi lên LMS hoặc chia sẻ lại** các thư mục `groundtruth/`, file `instances.json`, `panoptic.json` hay ảnh PNG đáp án. `.gitignore` đã bỏ qua `data/**/groundtruth/`, nhưng điều đó không bảo vệ bản ZIP đáp án nếu bạn cố thêm hoặc đưa file ra ngoài repo.
+3. Ground truth chỉ được dùng theo hướng dẫn phát trong lớp. **Không commit/push, upload lên Colab công khai, gửi lên [LMS](https://aithucchien.vinuni.edu.vn) hoặc chia sẻ lại** các thư mục `groundtruth/`, file `instances.json`, `panoptic.json` hay ảnh PNG đáp án. `.gitignore` đã bỏ qua `data/**/groundtruth/`, nhưng điều đó không bảo vệ bản ZIP đáp án nếu bạn cố thêm hoặc đưa file ra ngoài repo.
 
 ### Bước 1 — đặt reference đúng chỗ
 
@@ -72,4 +72,4 @@ Nếu script báo `Protected reference missing`, kiểm đúng cấu trúc ở B
 
 Bonus chưa được giao trong Day03; không tự cộng điểm hay xếp top 3. Xem [RUBRIC](../RUBRIC.md).
 
-Bạn vẫn nộp **link fork** cùng `report/individual/MSSV_HoTen.md` và ZIP của task đã làm trên LMS trong hạn lớp thông báo. Có thể ghi kết quả tự đánh giá trong report và đính kèm `reports/tiers/SCORECARD.md` nếu muốn, nhưng scorecard **không thay ZIP**. Không đưa đáp án vào repo công khai. Công cụ chấm chính thức sau hạn nộp vẫn đối chiếu bản đã nộp theo quy trình lớp.
+Bạn vẫn nộp **link fork** cùng `report/individual/MSSV_HoTen.md` và ZIP của task đã làm trên [LMS](https://aithucchien.vinuni.edu.vn) trong hạn lớp thông báo. Có thể ghi kết quả tự đánh giá trong report và đính kèm `reports/tiers/SCORECARD.md` nếu muốn, nhưng scorecard **không thay ZIP**. Không đưa đáp án vào repo công khai. Công cụ chấm chính thức sau hạn nộp vẫn đối chiếu bản đã nộp theo quy trình lớp.

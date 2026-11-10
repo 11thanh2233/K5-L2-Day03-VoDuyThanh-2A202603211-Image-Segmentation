@@ -8,8 +8,8 @@ Không sao chép ZIP/report, nhận bài làm thay hoặc chia sẻ đáp án l�
 
 ## Deadline, sửa bài và lỗi kỹ thuật
 
-Deadline theo [SUBMISSION](SUBMISSION.md): 12:00 trưa hôm sau (UTC+7). Nộp bản mới trước hạn bằng cách Save/export lại, push và kiểm link. Chính sách chấm bài muộn hoặc commit sửa sau hạn chưa được người phụ trách công bố: giữ bản nộp tại hạn, báo coach và chờ xác nhận trước khi coi bản muộn là bản được chấm. Không tự đặt hoặc suy ra mức phạt. Nếu lỗi kỹ thuật, ghi thời điểm, task, trạng thái đã Save và ảnh lỗi, báo coach sớm; không tự nhận đã nộp hoặc đã được gia hạn.
+Deadline theo [SUBMISSION](SUBMISSION.md): 12:00 trưa hôm sau (UTC+7). Nộp bản mới trước hạn bằng cách Save/export lại, push và kiểm link. Nếu lỗi kỹ thuật, ghi thời điểm, task, trạng thái đã Save và ảnh lỗi, báo coach sớm; không tự nhận đã nộp hoặc đã được gia hạn.
 
 ## Bảo mật và quyền truy cập
 
-Không commit API key, password, token hoặc file .env. Dùng .env.example với giá trị giả nếu cần. Không đưa ground truth, dữ liệu riêng tư hoặc dữ liệu chưa được phép công khai lên GitHub/Colab. Repo đề bài mới là private; chỉ đổi mức chia sẻ khi người phụ trách cho phép. Coach cần có quyền đọc bài để chấm.
+Không commit API key, password, token hoặc file .env. Dùng .env.example với giá trị giả nếu cần. Không đưa ground truth, dữ liệu riêng tư hoặc dữ liệu chưa được phép công khai lên GitHub/Colab. Coach cần có quyền đọc bài để chấm.

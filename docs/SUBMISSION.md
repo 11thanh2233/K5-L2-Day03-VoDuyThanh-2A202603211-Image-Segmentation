@@ -1,6 +1,6 @@
 # Nộp bài Day 3 — fork → push → LMS
 
-Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản GitHub của mình**, làm bài với CVAT local, đưa bài lên fork và nộp **link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Tool chấm riêng chạy sau cửa sổ nộp. Lab thực hành 240 phút trên lớp; không có bài tập về nhà bắt buộc. Reference của ba tier được phát trong 60 phút cuối để tự đánh giá; Day03 chưa giao bonus. Notebook và lệnh kiểm cấu trúc không phải điều kiện nộp cốt lõi.
+Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản GitHub của mình**, làm bài với CVAT local, đưa bài lên fork và nộp **link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Tool chấm riêng chạy sau cửa sổ nộp. Lab thực hành 240 phút trên lớp; không có bài tập về nhà bắt buộc. Reference của ba tier được phát trong 60 phút cuối để tự đánh giá; Day03 chưa giao bonus. Notebook và lệnh kiểm cấu trúc không phải điều kiện nộp cốt lõi.
 
 ## 1. Xuất đúng format và đặt tên
 
@@ -16,7 +16,7 @@ Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản Git
 
 ## 2. Điền một report
 
-Mở [`report/individual/MSSV_HoTen.md`](../report/individual/MSSV_HoTen.md) đã có sẵn trong thư mục report/individual/ và điền mã học viên, task hoàn thành, một quyết định tự vẽ trước gợi ý, một lỗi đã sửa và ba ca cân nhắc. Nếu cần hiểu cách điền, xem [mẫu có giải thích](../reports/REPORT_TEMPLATE.md). Không tự điền điểm. Nếu export thất bại, ghi tên task, trạng thái đã Save trên CVAT và báo coach.
+Mở [`report/individual/MSSV_HoTen.md`](../report/individual/MSSV_HoTen.md) đã có sẵn trong thư mục report/individual/ và đổi tên file theo MSSV, họ tên thật không dấu (ví dụ `20260001_NguyenVanAn.md`); điền mã học viên, task hoàn thành, một quyết định tự vẽ trước gợi ý, một lỗi đã sửa và ba ca cân nhắc. Nếu cần hiểu cách điền, xem [mẫu có giải thích](../reports/REPORT_TEMPLATE.md). Không tự điền điểm. Nếu export thất bại, ghi tên task, trạng thái đã Save trên CVAT và báo coach.
 
 ## 3. Tự kiểm tùy chọn
 
@@ -32,7 +32,7 @@ Khi push ZIP lên fork, **Day 3 self-check** trong tab Actions tự kiểm cấu
 
 ## 4. Đưa bài lên fork và nộp link
 
-Không cần dòng lệnh Git: mở `report/individual/MSSV_HoTen.md` ngay trong fork → bấm biểu tượng bút chì **Edit** → điền bài rồi **Commit changes**. Mở `submissions/` → **Add file → Upload files** → upload từng ZIP đúng tên và Commit. Mở lại fork, kiểm report đã điền và các ZIP đã hiện, rồi dán **URL của fork cá nhân** vào bài nộp Day 3 trên LMS. Đừng dán URL repo đề bài của lớp. Nếu dùng Git trên máy, commit và push các file tương tự; kết quả trên fork phải giống nhau.
+Không cần dòng lệnh Git: mở `report/individual/MSSV_HoTen.md` ngay trong fork → bấm biểu tượng bút chì **Edit** → đổi tên file theo MSSV và họ tên thật không dấu → điền bài rồi **Commit changes**. Mở `submissions/` → **Add file → Upload files** → upload từng ZIP đúng tên và Commit. Mở lại fork, kiểm report đã điền và các ZIP đã hiện, rồi dán **URL của fork cá nhân** vào bài nộp Day 3 trên [LMS](https://aithucchien.vinuni.edu.vn). Đừng dán URL repo đề bài của lớp. Nếu dùng Git trên máy, commit và push các file tương tự; kết quả trên fork phải giống nhau.
 
 Lệnh đóng thêm một ZIP duy nhất dưới đây là **tùy chọn để lưu/chuyển**, không thay cho `report/individual/MSSV_HoTen.md` và các ZIP riêng trên fork:
 
@@ -40,6 +40,6 @@ Lệnh đóng thêm một ZIP duy nhất dưới đây là **tùy chọn để l
 python3 scripts/package_submission.py --learner-id D3_012 --report report/individual/20260001_NguyenVanAn.md
 ```
 
-Lệnh lấy các ZIP ở `submissions/`, tạo `day3-D3_012.zip` gồm `report/individual/MSSV_HoTen.md`, các ZIP trong thư mục `exports/` **bên trong gói cuối**, và `manifest.json` có SHA-256. Gói vẫn cho phép task chưa kịp, nhưng report phải giải thích. Không upload thêm bản sao ảnh gốc, file reference hay file tạm notebook lên fork.
+Lệnh lấy các ZIP ở `submissions/`, tạo `day3-D3_012.zip` gồm report cá nhân giữ đúng tên file đã truyền qua `--report`, các ZIP trong thư mục `exports/` **bên trong gói cuối**, và `manifest.json` có SHA-256. Gói vẫn cho phép task chưa kịp, nhưng report phải giải thích. Không upload thêm bản sao ảnh gốc, file reference hay file tạm notebook lên fork.
 
 Tool chấm của lớp hoạt động riêng sau hạn 12:00 trưa hôm sau (UTC+7); lệnh tự kiểm ZIP chỉ báo cấu trúc, còn scorer với reference trong giờ cuối cho phản hồi để sửa. Bản tự đánh giá tối đa 82 điểm cho ba tier không thay điểm checkpoint hoặc tự quyết định bonus. Làm bài qua nút Upload files và làm bằng Git đều theo cùng một rubric 100 điểm.

@@ -2,7 +2,7 @@
 
 ## Tên và cấu trúc
 
-Repo đề bài: `K5-L3-Day03-Image-Segmentation`. Khi được cấp quyền, fork và đổi tên thành `K5-L3-DAY03-HoVaTen-MSSV-Image-Segmentation`, ví dụ `K5-L3-DAY03-NguyenVanAn-20260001-Image-Segmentation`. Tên không dấu, không khoảng trắng. Với repo private, nếu không thấy Fork thì báo coach cấp quyền/cho phép fork; không dùng token trong notebook.
+Repo đề bài: [K5-L3-Day03-Image-Segmentation](https://github.com/VinUni-AI20k/K5-L3-Day03-Image-Segmentation). Fork và đổi tên thành `K5-L3-DAY03-HoVaTen-MSSV-Image-Segmentation`, ví dụ `K5-L3-DAY03-NguyenVanAn-20260001-Image-Segmentation`. Tên không dấu, không khoảng trắng.
 
 ```text
 report/individual/20260001_NguyenVanAn.md
@@ -17,11 +17,11 @@ submissions/cp5_occlusion.zip
 submissions/cp6_coverage.zip
 ```
 
-Đổi tên mẫu `report/individual/MSSV_HoTen.md` theo MSSV và họ tên thật không dấu. Không cần TEAM hoặc code giả. Báo cáo và ZIP chứa phần đã làm; phần thiếu phải ghi rõ. Chưa làm task thì không tạo ZIP rỗng. Hướng dẫn format/export: [docs/SUBMISSION.md](docs/SUBMISSION.md).
+Đổi tên mẫu `report/individual/MSSV_HoTen.md` theo MSSV và họ tên thật không dấu. Báo cáo và ZIP chứa phần đã làm; phần thiếu phải ghi rõ. Chưa làm task thì không tạo ZIP rỗng. Hướng dẫn format/export: [docs/SUBMISSION.md](docs/SUBMISSION.md).
 
 ## Deadline và nơi nộp
 
-**12:00 trưa ngày hôm sau buổi lab (UTC+7)**, theo Minh xác nhận. Buổi 11/11/2026: **12/11/2026 12:00 UTC+7**. Mỗi học viên mở repo cá nhân đã có bài làm, copy URL repo, rồi dán link vào ô nộp bài Day03 trên LMS bằng tài khoản của mình và xác nhận nộp. Không dán link repo đề bài. Đảm bảo coach có quyền đọc repo private. Chưa có chính sách điểm cho bài muộn/sửa sau hạn: báo coach để xác nhận, không tự áp mức trừ.
+**12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Buổi 11/11/2026: **12/11/2026 12:00 UTC+7**. Mỗi học viên mở repo cá nhân đã có bài làm, copy URL repo, rồi dán link vào ô nộp bài Day03 trên [LMS](https://aithucchien.vinuni.edu.vn) bằng tài khoản của mình và xác nhận nộp. Không dán link repo đề bài. Đảm bảo coach có quyền đọc repo bài nộp.
 
 ## Tự kiểm trước nộp
 

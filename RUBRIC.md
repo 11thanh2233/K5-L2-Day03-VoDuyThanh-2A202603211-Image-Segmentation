@@ -1,6 +1,6 @@
 # Tiêu chí đánh giá Day 3 — tối đa 100 điểm trong lớp
 
-Trọng số giữ từ [starter Day 5](https://github.com/VinUni-AI20k/Day5-Segmentation-Data-Student) commit `3bff13d`; không có bài về nhà bắt buộc. Task chưa nộp được ghi là chưa có bài nộp, không tự điền điểm giả. Học viên nộp link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7); công cụ chấm riêng chạy sau cửa sổ nộp. Bản nộp được xem cùng ảnh, class và quy tắc của task. Ground truth ba tier được phát **trong 60 phút cuối buổi lab** theo hướng dẫn lớp; đáp án checkpoint chỉ được dùng nếu người phụ trách cung cấp riêng.
+Trọng số giữ từ [starter Day 5](https://github.com/VinUni-AI20k/Day5-Segmentation-Data-Student) commit `3bff13d`; không có bài về nhà bắt buộc. Task chưa nộp được ghi là chưa có bài nộp, không tự điền điểm giả. Học viên nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7); công cụ chấm riêng chạy sau cửa sổ nộp. Bản nộp được xem cùng ảnh, class và quy tắc của task. Ground truth ba tier được phát **trong 60 phút cuối buổi lab** theo hướng dẫn lớp; đáp án checkpoint chỉ được dùng nếu người phụ trách cung cấp riêng.
 
 | Task | Loại | Điểm tối đa | Điều cần chứng minh |
 | --- | --- | ---: | --- |
@@ -26,7 +26,7 @@ Khi reference đã được người chấm chuẩn bị và đối chiếu đú
 | Instance | mean matched IoU × recall@0.5 | 0.40 | 0.85 |
 | Panoptic | PQ trên stuff và từng thing | 0.20 | 0.65 |
 
-Thiếu object làm recall giảm, thừa object ảnh hưởng precision và việc ghép; một mask khít không bù được những vật bỏ sót. Mask thiếu/khác ảnh hoặc sai class cần kiểm lại trên CVAT trước khi bàn về điểm. Coach xem cả file xuất và report cho những ca quy tắc mơ hồ; không suy diễn hành vi của học viên từ một ngưỡng hay cờ kỹ thuật.
+Thiếu object làm recall giảm; một mask khít không bù được những vật bỏ sót. Với instance, object thừa làm giảm precision, nhưng precision không trực tiếp nằm trong công thức điểm hiện tại. Vì vậy điểm tự đánh giá cao không chứng minh bài không có object thừa; cần tự kiểm số vật trong CVAT. Mask thiếu/khác ảnh hoặc sai class cần kiểm lại trên CVAT trước khi bàn về điểm. Coach xem cả file xuất và report cho những ca quy tắc mơ hồ; không suy diễn hành vi của học viên từ một ngưỡng hay cờ kỹ thuật.
 
 ## Điều cần quan sát ở sáu checkpoint
 

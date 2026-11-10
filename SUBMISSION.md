@@ -21,7 +21,7 @@ submissions/cp6_coverage.zip
 
 ## Deadline và nơi nộp
 
-**12:00 trưa ngày hôm sau buổi lab (UTC+7)**, theo Minh xác nhận. Buổi 11/11/2026: **12/11/2026 12:00 UTC+7**. Mỗi học viên tự nộp link repo cá nhân trên VLearn bằng tài khoản của mình. Đảm bảo coach có quyền đọc repo private. Chưa có chính sách điểm cho bài muộn/sửa sau hạn: báo coach để xác nhận, không tự áp mức trừ.
+**12:00 trưa ngày hôm sau buổi lab (UTC+7)**, theo Minh xác nhận. Buổi 11/11/2026: **12/11/2026 12:00 UTC+7**. Mỗi học viên mở repo cá nhân đã có bài làm, copy URL repo, rồi dán link vào ô nộp bài Day03 trên LMS bằng tài khoản của mình và xác nhận nộp. Không dán link repo đề bài. Đảm bảo coach có quyền đọc repo private. Chưa có chính sách điểm cho bài muộn/sửa sau hạn: báo coach để xác nhận, không tự áp mức trừ.
 
 ## Tự kiểm trước nộp
 

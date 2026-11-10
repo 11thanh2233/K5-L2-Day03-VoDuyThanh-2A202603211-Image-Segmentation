@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hướng dẫn trực quan Day 3 Segmentation: 14 ảnh, 9 task, CVAT local từng bước; fork, push và nộp link trên VLearn trước 12:00 trưa hôm sau (UTC+7).">
+  <meta name="description" content="Hướng dẫn trực quan Day 3 Segmentation: 14 ảnh, 9 task, CVAT local từng bước; fork, push và nộp link trên LMS trước 12:00 trưa hôm sau (UTC+7).">
   <title>Day 3 | Segmentation Field Guide</title>
   <style>
     :root {
@@ -256,7 +256,7 @@ Notebook Colab tải URL public không dùng được với fork private; dùng 
     <section id="start" aria-labelledby="start-title">
       <div class="section-head"><h2 id="start-title">Bắt đầu trong 5 phút</h2><p>Không cần Python hoặc notebook. Mọi người fork cùng một repo đề bài, làm cùng bộ task và cùng thang 100 điểm; người mới dùng ảnh hướng dẫn, người quen CVAT có thể đi nhanh hơn.</p></div>
       <div class="readiness"><div class="check-panel"><h3>Kiểm trước khi vẽ</h3>
-        <label><input type="checkbox" data-check><span><strong>Tôi đã fork repo đề bài vào GitHub của mình.</strong><small>Mở fork của chính bạn; sau này push bài lên đây và nộp link trên VLearn.</small></span></label>
+        <label><input type="checkbox" data-check><span><strong>Tôi đã fork repo đề bài vào GitHub của mình.</strong><small>Mở fork của chính bạn; sau này push bài lên đây và nộp link trên LMS.</small></span></label>
         <label><input type="checkbox" data-check><span><strong>Tôi vào được CVAT local của lớp.</strong><small>Nếu lỗi đăng nhập hoặc địa chỉ, chụp màn hình và báo coach.</small></span></label>
         <label><input type="checkbox" data-check><span><strong>Tôi mở đúng task và đúng số ảnh.</strong><small>Bắt đầu với <code>easy_semantic</code>, ba JPG trong thư mục của task.</small></span></label>
         <label><input type="checkbox" data-check><span><strong>Tôi đã đọc classes.json của task.</strong><small>Tên lớp phải trùng từng chữ, kể cả dấu cách.</small></span></label>
@@ -358,7 +358,7 @@ Notebook Colab tải URL public không dùng được với fork private; dùng 
         <div class="block"><strong>120–175</strong><h3>Hard panoptic</h3><p>Vẽ stuff và từng thing trên hai ảnh, kiểm rồi export.</p></div>
         <div class="block"><strong>175–185</strong><h3>Nghỉ</h3><p>Ground truth ba tier được phát từ phút 180 theo hướng dẫn lớp; không đưa đáp án lên fork.</p></div>
         <div class="block"><strong>185–215</strong><h3>Checkpoint và tự đánh giá</h3><p>Mỗi task một ảnh, đúng classes.json. Người xong sớm có thể chạy scorer của repo gốc với reference mới nhận.</p></div>
-        <div class="block"><strong>215–240</strong><h3>QC, report, chuẩn bị push</h3><p>Kiểm ZIP, điền report, Save lần cuối và ghi lỗi cần báo coach. Nộp link fork trên VLearn trong 12:00 trưa ngày hôm sau buổi lab (UTC+7).</p></div>
+        <div class="block"><strong>215–240</strong><h3>QC, report, chuẩn bị push</h3><p>Kiểm ZIP, điền report, Save lần cuối và ghi lỗi cần báo coach. Nộp link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7).</p></div>
       </div>
     </section>
 
@@ -404,12 +404,12 @@ python3 scoring/scorecard.py --group tiers --dir submissions --out reports/tiers
     </section>
 
     <section id="submit" aria-labelledby="submit-title">
-      <div class="section-head"><h2 id="submit-title">Fork → push → nộp link</h2><p>Repo đề bài hiện ở chế độ private. Mỗi bạn nộp link fork cá nhân trên VLearn trước 12:00 trưa ngày hôm sau buổi lab (UTC+7); tool riêng chấm sau cửa sổ nộp. Không cần Python hoặc tự chấm.</p></div>
+      <div class="section-head"><h2 id="submit-title">Fork → push → nộp link</h2><p>Repo đề bài hiện ở chế độ private. Mỗi bạn nộp link fork cá nhân trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7); tool riêng chấm sau cửa sổ nộp. Không cần Python hoặc tự chấm.</p></div>
       <ol class="list">
         <li>Trên GitHub, bấm <strong>Fork</strong> ở repo đề bài để tạo fork trên tài khoản của bạn. Dùng ảnh và class trong fork để làm bài trên CVAT.</li>
         <li>Kiểm ZIP export: tên đúng mã task, mở được và có dữ liệu. Mở <a href="report/individual/MSSV_HoTen.md"><code>report/individual/MSSV_HoTen.md</code> đã có sẵn trong thư mục report/individual/</a>; ghi một quyết định tự làm, một lỗi và ba ca cân nhắc. <a href="reports/REPORT_TEMPLATE.md">Mẫu giải thích</a> giúp bạn hiểu từng ô.</li>
         <li>Trong fork, mở <code>report/individual/MSSV_HoTen.md</code> → <strong>Edit → Commit changes</strong>. Mở <code>submissions/</code> → <strong>Add file → Upload files</strong> để đưa ZIP vào đó rồi Commit. Dùng Git trên máy để push cũng được, nhưng không bắt buộc.</li>
-        <li>Mở lại fork, kiểm file đã hiện rồi dán <strong>link fork của bạn</strong> vào VLearn trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Đừng dán link repo đề bài của lớp. Nếu export lỗi, ghi tình trạng Save và báo coach. <a href="docs/SUBMISSION.md">Xem cách nộp chi tiết</a>.</li>
+        <li>Mở lại fork, kiểm file đã hiện rồi dán <strong>link fork của bạn</strong> vào LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Đừng dán link repo đề bài của lớp. Nếu export lỗi, ghi tình trạng Save và báo coach. <a href="docs/SUBMISSION.md">Xem cách nộp chi tiết</a>.</li>
       </ol>
       <p class="note">Rubric cốt lõi là 100 và điểm ghi nhận không vượt 100 dù có bonus giờ cuối. Hạn 12:00 trưa hôm sau (UTC+7) là cửa sổ nhận bài, không có bài tập về nhà bắt buộc. Không đưa ground truth lên fork. IoU giữa hai mask chỉ là độ giống nhau nếu chưa có reference; bạn không tự xác nhận PASS hay top 3.</p>
     </section>

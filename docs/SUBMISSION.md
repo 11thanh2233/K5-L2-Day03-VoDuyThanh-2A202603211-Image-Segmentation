@@ -1,6 +1,6 @@
-# Nộp bài Day 3 — fork → push → VLearn
+# Nộp bài Day 3 — fork → push → LMS
 
-Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản GitHub của mình**, làm bài với CVAT local, đưa bài lên fork và nộp **link fork trên VLearn trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Tool chấm riêng chạy sau cửa sổ nộp. Lab thực hành 240 phút trên lớp; không có bài tập về nhà bắt buộc. Reference của ba tier được phát trong 60 phút cuối để tự đánh giá; Day03 chưa giao bonus. Notebook và lệnh kiểm cấu trúc không phải điều kiện nộp cốt lõi.
+Repo đề bài được chia sẻ cho lớp. Bạn **fork về tài khoản GitHub của mình**, làm bài với CVAT local, đưa bài lên fork và nộp **link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Tool chấm riêng chạy sau cửa sổ nộp. Lab thực hành 240 phút trên lớp; không có bài tập về nhà bắt buộc. Reference của ba tier được phát trong 60 phút cuối để tự đánh giá; Day03 chưa giao bonus. Notebook và lệnh kiểm cấu trúc không phải điều kiện nộp cốt lõi.
 
 ## 1. Xuất đúng format và đặt tên
 
@@ -32,7 +32,7 @@ Khi push ZIP lên fork, **Day 3 self-check** trong tab Actions tự kiểm cấu
 
 ## 4. Đưa bài lên fork và nộp link
 
-Không cần dòng lệnh Git: mở `report/individual/MSSV_HoTen.md` ngay trong fork → bấm biểu tượng bút chì **Edit** → điền bài rồi **Commit changes**. Mở `submissions/` → **Add file → Upload files** → upload từng ZIP đúng tên và Commit. Mở lại fork, kiểm report đã điền và các ZIP đã hiện, rồi dán **URL của fork cá nhân** vào bài nộp Day 3 trên VLearn. Đừng dán URL repo đề bài của lớp. Nếu dùng Git trên máy, commit và push các file tương tự; kết quả trên fork phải giống nhau.
+Không cần dòng lệnh Git: mở `report/individual/MSSV_HoTen.md` ngay trong fork → bấm biểu tượng bút chì **Edit** → điền bài rồi **Commit changes**. Mở `submissions/` → **Add file → Upload files** → upload từng ZIP đúng tên và Commit. Mở lại fork, kiểm report đã điền và các ZIP đã hiện, rồi dán **URL của fork cá nhân** vào bài nộp Day 3 trên LMS. Đừng dán URL repo đề bài của lớp. Nếu dùng Git trên máy, commit và push các file tương tự; kết quả trên fork phải giống nhau.
 
 Lệnh đóng thêm một ZIP duy nhất dưới đây là **tùy chọn để lưu/chuyển**, không thay cho `report/individual/MSSV_HoTen.md` và các ZIP riêng trên fork:
 

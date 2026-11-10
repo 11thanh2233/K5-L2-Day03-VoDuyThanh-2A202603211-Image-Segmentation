@@ -144,7 +144,7 @@ class ReleaseContract(unittest.TestCase):
         for name in ("README.md", "GUIDE.md", "RUBRIC.md", "docs/SUBMISSION.md", "lab-guide.html"):
             content = (ROOT / name).read_text()
             self.assertIn("12:00", content, name)
-            self.assertIn("VLearn", content, name)
+            self.assertIn("LMS", content, name)
         self.assertTrue((ROOT / "submissions" / ".gitkeep").is_file())
         ignore = (ROOT / ".gitignore").read_text()
         self.assertNotIn("submissions/", ignore)

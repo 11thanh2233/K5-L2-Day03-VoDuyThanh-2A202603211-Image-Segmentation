@@ -14,7 +14,7 @@
 | 215–235 | Kiểm export, ghi lỗi, hành động sửa và ba ca chưa chắc vào report | `report/individual/MSSV_HoTen.md` |
 | 235–240 | Save lần cuối, kiểm ZIP và report, ghi lỗi cần báo coach | Bài sẵn để push lên fork |
 
-Các mốc là **timebox thực hành**, không phải hạn nộp ngay trong lớp hay lý do bỏ qua Save/QC. Fork repo đề bài được chia sẻ cho lớp, push `report/individual/MSSV_HoTen.md` và các ZIP đã làm lên fork của bạn, rồi nộp **link fork trên VLearn trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Công cụ chấm riêng chạy sau cửa sổ nộp. Nếu không đủ giờ, ghi phần đã hoàn thành và phần còn thiếu trung thực; không có bài tập về nhà bắt buộc. Day03 chưa giao bonus; xem [rubric](RUBRIC.md).
+Các mốc là **timebox thực hành**, không phải hạn nộp ngay trong lớp hay lý do bỏ qua Save/QC. Fork repo đề bài được chia sẻ cho lớp, push `report/individual/MSSV_HoTen.md` và các ZIP đã làm lên fork của bạn, rồi nộp **link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Công cụ chấm riêng chạy sau cửa sổ nộp. Nếu không đủ giờ, ghi phần đã hoàn thành và phần còn thiếu trung thực; không có bài tập về nhà bắt buộc. Day03 chưa giao bonus; xem [rubric](RUBRIC.md).
 
 ## Easy: semantic — 20 điểm
 

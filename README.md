@@ -2,7 +2,7 @@
 
 **K5 · Level 3 · Day03 · Bài cá nhân.**
 
-**Dành cho học viên · 240 phút thực hành trên lớp · điểm ghi nhận tối đa 100.** Repo đề bài được chia sẻ cho lớp; mỗi học viên **fork repo này**, làm bài trong fork của mình, push kết quả rồi nộp link fork trên VLearn trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Bài được chấm bằng công cụ riêng sau cửa sổ nộp. Không có bài tập bắt buộc về nhà. Bài giữ nguyên cấu trúc, ảnh, lớp và trọng số của [starter Day 5](https://github.com/VinUni-AI20k/Day5-Segmentation-Data-Student) tại commit `3bff13d`: Easy semantic → Medium instance → Hard panoptic → sáu checkpoint. Repo này bổ sung hướng dẫn CVAT local, tự kiểm và cách nộp, **không thay bài starter bằng bộ ảnh pilot khác**.
+**Dành cho học viên · 240 phút thực hành trên lớp · điểm ghi nhận tối đa 100.** Repo đề bài được chia sẻ cho lớp; mỗi học viên **fork repo này**, làm bài trong fork của mình, push kết quả rồi nộp link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7). Bài được chấm bằng công cụ riêng sau cửa sổ nộp. Không có bài tập bắt buộc về nhà. Bài giữ nguyên cấu trúc, ảnh, lớp và trọng số của [starter Day 5](https://github.com/VinUni-AI20k/Day5-Segmentation-Data-Student) tại commit `3bff13d`: Easy semantic → Medium instance → Hard panoptic → sáu checkpoint. Repo này bổ sung hướng dẫn CVAT local, tự kiểm và cách nộp, **không thay bài starter bằng bộ ảnh pilot khác**.
 
 Bạn sẽ tự tạo mask cho ảnh trong repo, kiểm lại theo quy tắc, sửa một lỗi và giải thích quyết định của mình. Bài nộp gồm **ZIP export từ CVAT cho các task đã làm và một `report/individual/MSSV_HoTen.md`** trong fork của bạn. Có thể hoàn thành toàn bộ mà không cần lập trình, Jupyter hay SAM. [Hướng dẫn trực quan có ảnh chụp CVAT](lab-guide.html) dành cho người mới; README này là lộ trình đầy đủ để tra cứu trong lúc làm. Nếu xem trên GitHub không mở được HTML, tải fork về và mở file đó trong Chrome/Edge.
 
@@ -12,7 +12,7 @@ Bạn sẽ tự tạo mask cho ảnh trong repo, kiểm lại theo quy tắc, s�
 2. Mở **CVAT local của lớp** theo địa chỉ coach cung cấp. Nếu CVAT chạy trên chính máy bạn, địa chỉ thường là `http://localhost:8080`; nếu không mở được, báo coach với ảnh màn hình lỗi. Đừng tự cài một CVAT khác giữa giờ.
 3. Đọc [phiếu quy tắc](guideline-mini-sheet.md). Tạo task đầu tiên tên `easy_semantic`, tải đúng ba ảnh trong [`data/tiers/easy_semantic/images/`](data/tiers/easy_semantic/images/). Nếu dùng ô **Labels → Raw** của CVAT, sao chép **toàn bộ** [`cvat-labels.json`](data/tiers/easy_semantic/cvat-labels.json) của task rồi dán vào đó. Nếu thêm từng label bằng **Constructor**, đọc tên trong [`classes.json`](data/tiers/easy_semantic/classes.json).
 4. Vẽ mask, kiểm class và vùng, bấm **Save**, xuất **Segmentation mask 1.1**, lưu thành `easy_semantic.zip`. Các task tiếp theo có bộ ảnh và `classes.json` riêng.
-5. Trước khi nộp, mở [`report/individual/MSSV_HoTen.md`](report/individual/MSSV_HoTen.md) đã có sẵn trong thư mục report/individual/ và điền thật; [mẫu giải thích chi tiết](reports/REPORT_TEMPLATE.md) giúp bạn hiểu từng ô. Push/upload report cùng các ZIP lên fork rồi nộp link fork trên VLearn. Nếu không kịp task nào, ghi phần đã làm và phần còn thiếu; không tạo export rỗng.
+5. Trước khi nộp, mở [`report/individual/MSSV_HoTen.md`](report/individual/MSSV_HoTen.md) đã có sẵn trong thư mục report/individual/ và điền thật; [mẫu giải thích chi tiết](reports/REPORT_TEMPLATE.md) giúp bạn hiểu từng ô. Push/upload report cùng các ZIP lên fork rồi nộp link fork trên LMS. Nếu không kịp task nào, ghi phần đã làm và phần còn thiếu; không tạo export rỗng.
 
 > **Ảnh trong screenshot CVAT chỉ để tìm nút, không phải ảnh chấm.** Ảnh chấm nằm trong `data/` của repo này. Tên class phải giống từng chữ trong `classes.json` của chính task đang làm.
 
@@ -49,7 +49,7 @@ Checkpoint có **class list riêng**. Ví dụ `cp3_thin` có `pole`, `traffic s
 
 ## Lộ trình 240 phút trên lớp
 
-Đây là **timebox cho 240 phút thực hành**, để còn giờ Save, tự QC và chuẩn bị bài nộp. Nếu chậm hơn dự kiến, ghi rõ phần đã làm và phần còn thiếu. **Ground truth của Easy, Medium và Hard dự kiến được phát trong 60 phút cuối**, sau phần tự làm; lúc đó có thể dùng script để tìm và sửa lỗi. Hạn đưa link fork lên VLearn là **12:00 trưa ngày hôm sau buổi lab (UTC+7)**; công cụ chấm riêng chạy sau cửa sổ nộp. [Bản lộ trình văn bản](GUIDE.md) có thể mở cạnh CVAT.
+Đây là **timebox cho 240 phút thực hành**, để còn giờ Save, tự QC và chuẩn bị bài nộp. Nếu chậm hơn dự kiến, ghi rõ phần đã làm và phần còn thiếu. **Ground truth của Easy, Medium và Hard dự kiến được phát trong 60 phút cuối**, sau phần tự làm; lúc đó có thể dùng script để tìm và sửa lỗi. Hạn đưa link fork lên LMS là **12:00 trưa ngày hôm sau buổi lab (UTC+7)**; công cụ chấm riêng chạy sau cửa sổ nộp. [Bản lộ trình văn bản](GUIDE.md) có thể mở cạnh CVAT.
 
 | Phút | Việc chính | Bằng chứng giữ lại |
 | ---: | --- | --- |
@@ -112,13 +112,13 @@ Lệnh không cần thư viện ngoài; nó kiểm tên ảnh, class, cấu trú
 
 ## Fork → làm bài → push → nộp link trước 12:00 trưa hôm sau (UTC+7)
 
-Từ repo đề bài được chia sẻ cho lớp, bấm **Fork** để có bản trên tài khoản GitHub của bạn. Làm bài với bộ ảnh trong fork; khi xuất từ CVAT, đưa `report/individual/MSSV_HoTen.md` vào thư mục report/individual/ và các ZIP vào `submissions/` (ví dụ `submissions/easy_semantic.zip`, `submissions/cp2_slice.zip`). Dùng **Add file → Upload files** trên GitHub hoặc Git để push thay đổi, mở lại fork để chắc file đã hiện, rồi **dán link fork trên VLearn trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Không cần chạy Git bằng lệnh nếu bạn dùng nút Upload files. Nếu muốn có thêm một gói lưu/chuyển, lệnh sau là tùy chọn:
+Từ repo đề bài được chia sẻ cho lớp, bấm **Fork** để có bản trên tài khoản GitHub của bạn. Làm bài với bộ ảnh trong fork; khi xuất từ CVAT, đưa `report/individual/MSSV_HoTen.md` vào thư mục report/individual/ và các ZIP vào `submissions/` (ví dụ `submissions/easy_semantic.zip`, `submissions/cp2_slice.zip`). Dùng **Add file → Upload files** trên GitHub hoặc Git để push thay đổi, mở lại fork để chắc file đã hiện, rồi **dán link fork trên LMS trước 12:00 trưa ngày hôm sau buổi lab (UTC+7)**. Không cần chạy Git bằng lệnh nếu bạn dùng nút Upload files. Nếu muốn có thêm một gói lưu/chuyển, lệnh sau là tùy chọn:
 
 ```bash
 python3 scripts/package_submission.py --learner-id D3_012 --report report/individual/20260001_NguyenVanAn.md
 ```
 
-[Hướng dẫn nộp](docs/SUBMISSION.md) ghi format, tên từng ZIP và cách đưa bài lên GitHub/VLearn không cần code. **Không upload thêm bản sao ảnh gốc, file tạm notebook hoặc đáp án vào fork.** Nếu export lỗi, báo coach và ghi trạng thái đã Save trong report; không tạo ZIP rỗng. Hạn 12:00 trưa hôm sau (UTC+7) là cửa sổ nhận bài, không phải một bài tập hoặc thang điểm mới.
+[Hướng dẫn nộp](docs/SUBMISSION.md) ghi format, tên từng ZIP và cách đưa bài lên GitHub/LMS không cần code. **Không upload thêm bản sao ảnh gốc, file tạm notebook hoặc đáp án vào fork.** Nếu export lỗi, báo coach và ghi trạng thái đã Save trong report; không tạo ZIP rỗng. Hạn 12:00 trưa hôm sau (UTC+7) là cửa sổ nhận bài, không phải một bài tập hoặc thang điểm mới.
 
 ## Mã nguồn starter có ngay trong repo này
 

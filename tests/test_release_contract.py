@@ -136,7 +136,7 @@ class ReleaseContract(unittest.TestCase):
         guide = (ROOT / "lab-guide.html").read_text()
         for name in EXPECTED_COUNTS:
             self.assertIn(name, guide)
-        self.assertNotIn("D05-MANUAL", guide)
+        self.assertNotIn("D03-MANUAL", guide)
         self.assertIn("data-lightbox", guide)
         self.assertIn("data-progress-label", guide)
 

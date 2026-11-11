@@ -11,7 +11,7 @@ Bạn sẽ tự tạo mask cho ảnh trong repo, kiểm lại theo quy tắc, s�
 ## Bắt đầu trong 5 phút
 
 1. Đăng nhập GitHub, bấm **Fork** ở repo đề bài và chọn tài khoản của bạn. Tải fork về máy (Download ZIP hoặc clone), giải nén nếu cần; mở `lab-guide.html` để xem ảnh chụp giao diện. Không cần cài notebook để bắt đầu.
-2. Mở **CVAT local của lớp** theo địa chỉ coach cung cấp. Nếu CVAT chạy trên chính máy bạn, địa chỉ thường là `http://localhost:8080`; nếu không mở được, báo coach với ảnh màn hình lỗi. Đừng tự cài một CVAT khác giữa giờ.
+2. Chạy **CVAT local**.
 3. Đọc [phiếu quy tắc](guideline-mini-sheet.md). Tạo task đầu tiên tên `easy_semantic`, tải đúng ba ảnh trong [`data/tiers/easy_semantic/images/`](data/tiers/easy_semantic/images/). Nếu dùng ô **Labels → Raw** của CVAT, sao chép **toàn bộ** [`cvat-labels.json`](data/tiers/easy_semantic/cvat-labels.json) của task rồi dán vào đó. Nếu thêm từng label bằng **Constructor**, đọc tên trong [`classes.json`](data/tiers/easy_semantic/classes.json).
 4. Vẽ mask, kiểm class và vùng, bấm **Save**, xuất **Segmentation mask 1.1**, lưu thành `easy_semantic.zip`. Các task tiếp theo có bộ ảnh và `classes.json` riêng.
 5. Trước khi nộp, mở [`report/individual/MSSV_HoTen.md`](report/individual/MSSV_HoTen.md) đã có sẵn trong thư mục report/individual/, đổi MSSV và HoTen thành thông tin thật không dấu rồi điền bài; [mẫu giải thích chi tiết](reports/REPORT_TEMPLATE.md) giúp bạn hiểu từng ô. Push/upload report cùng các ZIP lên fork rồi nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn). Nếu không kịp task nào, ghi phần đã làm và phần còn thiếu; không tạo export rỗng.

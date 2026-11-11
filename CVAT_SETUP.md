@@ -1,6 +1,6 @@
 # CVAT local — vào lớp, vẽ, lưu, xuất
 
-Địa chỉ CVAT do lớp cung cấp; nếu chạy trên chính máy của bạn thường là `http://localhost:8080`. Dùng Chrome hoặc Edge. Nếu không vào được, báo coach với màn hình lỗi và thời điểm, không tự cài một stack CVAT khác giữa giờ lab.
+Chạy **CVAT local**.
 
 1. **Tasks → Create new task.** Mỗi mục trong `data/manifest.json` là một task riêng. Đặt tên đúng mã task; tải đúng ảnh trong `data/tiers/<task>/images/` hoặc `data/checkpoints/<task>/images/`.
 2. Trong **Labels**, chọn một trong hai cách: **Raw** → dán toàn bộ nội dung `cvat-labels.json` của đúng task → **Done**; hoặc **Constructor → Add label** để thêm từng tên từ `classes.json`. `classes.json` chứa metadata của bài lab, **không dán nguyên file vào Raw**. Ví dụ `traffic sign` có dấu cách; không tự đổi thành `traffic_sign`. Kiểm tên/số label rồi mới Submit. Nếu task đã có annotation, không dán đè Raw; báo coach khi cần sửa nhãn.

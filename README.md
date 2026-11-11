@@ -1,5 +1,6 @@
 # Bài thực hành Day 3 — Segmentation
 
+
 **K5 · Level 2 · Day03 · Bài cá nhân.**
 
 [Repo bài thực hành](https://github.com/VinUni-AI20k/K5-L2-Day03-Image-Segmentation) · [LMS nộp bài](https://aithucchien.vinuni.edu.vn)

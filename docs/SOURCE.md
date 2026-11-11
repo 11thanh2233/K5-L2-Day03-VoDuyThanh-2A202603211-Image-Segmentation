@@ -1,5 +1,6 @@
 # Nguồn bài Day03
 
+
 Repo hiện tại: [K5-L2-Day03-Image-Segmentation](https://github.com/VinUni-AI20k/K5-L2-Day03-Image-Segmentation).
 
 Bài được chuyển từ [Day5-Segmentation-Lab-Student](https://github.com/VinUni-AI20k/Day5-Segmentation-Lab-Student) tại commit `3680a53730701c0e7e1a6d7596de7a03018d97a8`. Nguồn dữ liệu trước đó là starter Day5-Segmentation-Data-Student commit 3bff13d. Các tên Day5 trong URL nguồn, tag day5-reference-v1 và asset day5-groundtruth.zip là định danh cũ được giữ để không hỏng liên kết, không phải ngày học của bài này.

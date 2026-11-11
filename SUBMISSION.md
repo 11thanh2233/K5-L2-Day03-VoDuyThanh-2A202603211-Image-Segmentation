@@ -1,5 +1,6 @@
 # Nộp bài Day03 — K5 L2 — Cá nhân
 
+
 ## Tên và cấu trúc
 
 Repo đề bài: [K5-L2-Day03-Image-Segmentation](https://github.com/VinUni-AI20k/K5-L2-Day03-Image-Segmentation). Fork và đổi tên thành `K5-L2-DAY03-HoVaTen-MSSV-Image-Segmentation`, ví dụ `K5-L2-DAY03-NguyenVanAn-20260001-Image-Segmentation`. Tên không dấu, không khoảng trắng.

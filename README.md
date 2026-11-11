@@ -1,8 +1,8 @@
 # Bài thực hành Day 3 — Segmentation
 
-**K5 · Level 3 · Day03 · Bài cá nhân.**
+**K5 · Level 2 · Day03 · Bài cá nhân.**
 
-[Repo bài thực hành](https://github.com/VinUni-AI20k/K5-L3-Day03-Image-Segmentation) · [LMS nộp bài](https://aithucchien.vinuni.edu.vn)
+[Repo bài thực hành](https://github.com/VinUni-AI20k/K5-L2-Day03-Image-Segmentation) · [LMS nộp bài](https://aithucchien.vinuni.edu.vn)
 
 **Dành cho học viên · 240 phút thực hành trên lớp · điểm ghi nhận tối đa 100.** Repo đề bài được chia sẻ cho lớp; mỗi học viên **fork repo này**, làm bài trong fork của mình, push kết quả rồi nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn) trước 12:00 trưa ngày hôm sau buổi lab (UTC+7).
 
@@ -147,7 +147,7 @@ Các lệnh chấm cần reference được giữ riêng và ba thư viện tron
 
 ## Quy định bài nộp Day03
 
-Repo đề bài: `K5-L3-Day03-Image-Segmentation`. Repo bài cá nhân: `K5-L3-DAY03-HoVaTen-MSSV-Image-Segmentation`.
+Repo đề bài: `K5-L2-Day03-Image-Segmentation`. Repo bài cá nhân: `K5-L2-DAY03-HoVaTen-MSSV-Image-Segmentation`.
 
 Đọc [SUBMISSION.md](SUBMISSION.md), [RULES.md](RULES.md), [CHECKPOINTS.md](CHECKPOINTS.md) và [RUBRIC.md](RUBRIC.md). Báo cáo theo mẫu `report/individual/MSSV_HoTen.md`; đổi MSSV và HoTen thành thông tin thật không dấu. ZIP task đặt trong `submissions/`.
 

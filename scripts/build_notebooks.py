@@ -46,7 +46,7 @@ import re
 import shutil
 import subprocess
 
-# Trên Colab: dán URL fork của BẠN, ví dụ https://github.com/ten-ban/K5-L3-DAY03-NguyenVanAn-20260001-Image-Segmentation
+# Trên Colab: dán URL fork của BẠN, ví dụ https://github.com/ten-ban/K5-L2-DAY03-NguyenVanAn-20260001-Image-Segmentation
 FORK_URL = ""
 IN_COLAB = importlib.util.find_spec("google.colab") is not None
 if IN_COLAB:
@@ -94,10 +94,10 @@ else:
 
 SECTIONS = {
     "nhan-anh": [
-        md("# Day 3 · Một notebook tự kiểm từ đầu đến cuối\n\n**K5 · L3 · Day03 · Bài cá nhân. Hỗ trợ tự kiểm, không chấm điểm.**\n\nBạn vẫn vẽ mask trong CVAT và nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn). Notebook này chỉ đọc ảnh/ZIP của bạn, không tạo mask hoặc đáp án.\n\n**Làm theo đúng thứ tự:** (0) chạy ô kiểm môi trường → (1) dán link fork ở ô kế tiếp → (2) nếu ZIP chưa có trên fork, upload ZIP tạm → (3) chạy các ô nhận ảnh, semantic, instance, panoptic → (4) kiểm bài nộp. Bấm nút ▶ cạnh từng ô, đợi ô chạy xong mới xuống ô sau. Đừng bấm *Run all* trước khi điền link fork. Nếu không dùng notebook, làm đầy đủ theo `lab-guide.html`."),
+        md("# Day 3 · Một notebook tự kiểm từ đầu đến cuối\n\n**K5 · L2 · Day03 · Bài cá nhân. Hỗ trợ tự kiểm, không chấm điểm.**\n\nBạn vẫn vẽ mask trong CVAT và nộp link fork trên [LMS](https://aithucchien.vinuni.edu.vn). Notebook này chỉ đọc ảnh/ZIP của bạn, không tạo mask hoặc đáp án.\n\n**Làm theo đúng thứ tự:** (0) chạy ô kiểm môi trường → (1) dán link fork ở ô kế tiếp → (2) nếu ZIP chưa có trên fork, upload ZIP tạm → (3) chạy các ô nhận ảnh, semantic, instance, panoptic → (4) kiểm bài nộp. Bấm nút ▶ cạnh từng ô, đợi ô chạy xong mới xuống ô sau. Đừng bấm *Run all* trước khi điền link fork. Nếu không dùng notebook, làm đầy đủ theo `lab-guide.html`."),
         md("## BƯỚC 0 · Thư viện cần dùng\n\nTrên Colab, chạy ô dưới trước. Notebook chỉ cần **Python 3.10+ và IPython** (để hiện ảnh); nếu thiếu IPython, ô sẽ tự cài và báo kết quả. **Không cài `requirements.txt`**: NumPy, Pillow, pycocotools trong đó phục vụ mã chấm riêng, không cần cho tự kiểm/nộp bài. Git được dùng để tải fork; nếu không có Git, ô kế tiếp sẽ báo rõ. Nếu mạng/cài đặt lỗi, bạn vẫn làm bài trên CVAT và nộp bằng GitHub, không mất quyền làm bài."),
         code(ENVIRONMENT),
-        md('## BƯỚC 1 · Kết nối đúng fork của bạn\n\nTrong ô kế tiếp, sửa **duy nhất** `FORK_URL = ""` thành URL gốc fork cá nhân, ví dụ `FORK_URL = "https://github.com/ten-ban/K5-L3-DAY03-NguyenVanAn-20260001-Image-Segmentation"`. Không dán link repo đề bài, link một file, `/tree/main`, mật khẩu hay token. Trên Colab, ô tải repo công khai của bạn một lần; trên Jupyter local, mở notebook từ thư mục repo và để `FORK_URL` trống. Nếu vừa push file mới mà Colab vẫn thấy bản cũ, chọn **Runtime → Restart runtime** rồi chạy lại từ BƯỚC 0.'),
+        md('## BƯỚC 1 · Kết nối đúng fork của bạn\n\nTrong ô kế tiếp, sửa **duy nhất** `FORK_URL = ""` thành URL gốc fork cá nhân, ví dụ `FORK_URL = "https://github.com/ten-ban/K5-L2-DAY03-NguyenVanAn-20260001-Image-Segmentation"`. Không dán link repo đề bài, link một file, `/tree/main`, mật khẩu hay token. Trên Colab, ô tải repo công khai của bạn một lần; trên Jupyter local, mở notebook từ thư mục repo và để `FORK_URL` trống. Nếu vừa push file mới mà Colab vẫn thấy bản cũ, chọn **Runtime → Restart runtime** rồi chạy lại từ BƯỚC 0.'),
         code(SETUP),
         md("## BƯỚC 2 · Đưa ZIP CVAT vào Colab nếu chưa push\n\nNếu đã push ZIP vào `submissions/` trên fork, cứ chạy ô sau với `UPLOAD_ZIPS = False`. Nếu chưa push: tìm ZIP CVAT trong thư mục Downloads của máy, đổi tên theo mã task (ví dụ `easy_semantic.zip`), sửa thành `UPLOAD_ZIPS = True`, bấm ▶ và chọn các ZIP. Dòng **Đã nhận** xác nhận file nằm tạm trong Colab; nó **không tự push lên fork**. Không upload dữ liệu cá nhân hoặc dữ liệu không được phép đưa lên Colab."),
         code(COLAB_UPLOAD),

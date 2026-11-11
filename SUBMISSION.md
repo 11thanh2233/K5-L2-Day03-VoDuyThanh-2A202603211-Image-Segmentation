@@ -1,8 +1,8 @@
-# Nộp bài Day03 — K5 L3 — Cá nhân
+# Nộp bài Day03 — K5 L2 — Cá nhân
 
 ## Tên và cấu trúc
 
-Repo đề bài: [K5-L3-Day03-Image-Segmentation](https://github.com/VinUni-AI20k/K5-L3-Day03-Image-Segmentation). Fork và đổi tên thành `K5-L3-DAY03-HoVaTen-MSSV-Image-Segmentation`, ví dụ `K5-L3-DAY03-NguyenVanAn-20260001-Image-Segmentation`. Tên không dấu, không khoảng trắng.
+Repo đề bài: [K5-L2-Day03-Image-Segmentation](https://github.com/VinUni-AI20k/K5-L2-Day03-Image-Segmentation). Fork và đổi tên thành `K5-L2-DAY03-HoVaTen-MSSV-Image-Segmentation`, ví dụ `K5-L2-DAY03-NguyenVanAn-20260001-Image-Segmentation`. Tên không dấu, không khoảng trắng.
 
 ```text
 report/individual/20260001_NguyenVanAn.md
@@ -25,7 +25,7 @@ submissions/cp6_coverage.zip
 
 ## Tự kiểm trước nộp
 
-- Tên repo đúng K5-L3-DAY03 và danh tính.
+- Tên repo đúng K5-L2-DAY03 và danh tính.
 - Report đã đổi tên, điền đủ bốn mục; ZIP có dữ liệu và đúng format.
 - Không có ground truth, secret, file môi trường hay dữ liệu cá nhân ngoài yêu cầu bài nộp.
 - Mở lại repo kiểm file đã có, coach đọc được, nộp đúng link trước hạn.

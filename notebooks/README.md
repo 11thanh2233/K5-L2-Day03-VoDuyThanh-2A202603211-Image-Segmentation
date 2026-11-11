@@ -1,4 +1,4 @@
-# Notebook Day03 — K5 L3 — Colab hoặc Jupyter
+# Notebook Day03 — K5 L2 — Colab hoặc Jupyter
 
 Lộ trình vẫn là 9 task, 14 ảnh và 100 điểm trong 240 phút. [Mở một notebook duy nhất](day3-segmentation-tu-kiem.ipynb) để đi từ nhận ảnh → QC semantic → QC instance → QC panoptic → kiểm nộp. Notebook không thêm bài, không mở đáp án, không bắt bạn viết code. Nếu mới dùng máy tính, cứ theo `lab-guide.html` và CVAT; coach có thể dùng notebook để hỗ trợ kiểm export.
 
